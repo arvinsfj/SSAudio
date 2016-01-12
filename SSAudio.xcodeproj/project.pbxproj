@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212792A71C44AB5E0046393C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792A61C44AB5E0046393C /* AppDelegate.swift */; };
+		212792A91C44AB5E0046393C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792A81C44AB5E0046393C /* ViewController.swift */; };
+		212792AC1C44AB5E0046393C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212792AA1C44AB5E0046393C /* Main.storyboard */; };
+		212792AE1C44AB5E0046393C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212792AD1C44AB5E0046393C /* Assets.xcassets */; };
+		212792B11C44AB5E0046393C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212792AF1C44AB5E0046393C /* LaunchScreen.storyboard */; };
+		212792C21C44AB790046393C /* SSAVSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792BA1C44AB790046393C /* SSAVSound.swift */; };
+		212792C31C44AB790046393C /* SSAVSoundChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792BB1C44AB790046393C /* SSAVSoundChannel.swift */; };
+		212792C41C44AB790046393C /* SSALSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792BD1C44AB790046393C /* SSALSound.swift */; };
+		212792C51C44AB790046393C /* SSALSoundChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792BE1C44AB790046393C /* SSALSoundChannel.swift */; };
+		212792C61C44AB790046393C /* SSAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792BF1C44AB790046393C /* SSAudioEngine.swift */; };
+		212792C71C44AB790046393C /* SSSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792C01C44AB790046393C /* SSSound.swift */; };
+		212792C81C44AB790046393C /* SSSoundChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212792C11C44AB790046393C /* SSSoundChannel.swift */; };
+		212792CC1C44ABB70046393C /* music.aifc in Resources */ = {isa = PBXBuildFile; fileRef = 212792CA1C44ABB70046393C /* music.aifc */; };
+		212792CD1C44ABB70046393C /* sound0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 212792CB1C44ABB70046393C /* sound0.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212792A31C44AB5E0046393C /* SSAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212792A61C44AB5E0046393C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212792A81C44AB5E0046393C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212792AB1C44AB5E0046393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212792AD1C44AB5E0046393C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212792B01C44AB5E0046393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212792B21C44AB5E0046393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212792BA1C44AB790046393C /* SSAVSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSAVSound.swift; sourceTree = "<group>"; };
+		212792BB1C44AB790046393C /* SSAVSoundChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSAVSoundChannel.swift; sourceTree = "<group>"; };
+		212792BD1C44AB790046393C /* SSALSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSALSound.swift; sourceTree = "<group>"; };
+		212792BE1C44AB790046393C /* SSALSoundChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSALSoundChannel.swift; sourceTree = "<group>"; };
+		212792BF1C44AB790046393C /* SSAudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSAudioEngine.swift; sourceTree = "<group>"; };
+		212792C01C44AB790046393C /* SSSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSSound.swift; sourceTree = "<group>"; };
+		212792C11C44AB790046393C /* SSSoundChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSSoundChannel.swift; sourceTree = "<group>"; };
+		212792CA1C44ABB70046393C /* music.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.aifc; sourceTree = "<group>"; };
+		212792CB1C44ABB70046393C /* sound0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound0.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212792A01C44AB5E0046393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2127929A1C44AB5E0046393C = {
+			isa = PBXGroup;
+			children = (
+				212792A51C44AB5E0046393C /* SSAudio */,
+				212792A41C44AB5E0046393C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212792A41C44AB5E0046393C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212792A31C44AB5E0046393C /* SSAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212792A51C44AB5E0046393C /* SSAudio */ = {
+			isa = PBXGroup;
+			children = (
+				212792C91C44ABB70046393C /* Resource */,
+				212792B81C44AB790046393C /* SSAudio */,
+				212792A61C44AB5E0046393C /* AppDelegate.swift */,
+				212792A81C44AB5E0046393C /* ViewController.swift */,
+				212792AA1C44AB5E0046393C /* Main.storyboard */,
+				212792AD1C44AB5E0046393C /* Assets.xcassets */,
+				212792AF1C44AB5E0046393C /* LaunchScreen.storyboard */,
+				212792B21C44AB5E0046393C /* Info.plist */,
+			);
+			path = SSAudio;
+			sourceTree = "<group>";
+		};
+		212792B81C44AB790046393C /* SSAudio */ = {
+			isa = PBXGroup;
+			children = (
+				212792B91C44AB790046393C /* AVFoundation */,
+				212792BC1C44AB790046393C /* OpenAL */,
+				212792BF1C44AB790046393C /* SSAudioEngine.swift */,
+				212792C01C44AB790046393C /* SSSound.swift */,
+				212792C11C44AB790046393C /* SSSoundChannel.swift */,
+			);
+			path = SSAudio;
+			sourceTree = "<group>";
+		};
+		212792B91C44AB790046393C /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				212792BA1C44AB790046393C /* SSAVSound.swift */,
+				212792BB1C44AB790046393C /* SSAVSoundChannel.swift */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		212792BC1C44AB790046393C /* OpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				212792BD1C44AB790046393C /* SSALSound.swift */,
+				212792BE1C44AB790046393C /* SSALSoundChannel.swift */,
+			);
+			path = OpenAL;
+			sourceTree = "<group>";
+		};
+		212792C91C44ABB70046393C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				212792CA1C44ABB70046393C /* music.aifc */,
+				212792CB1C44ABB70046393C /* sound0.caf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212792A21C44AB5E0046393C /* SSAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212792B51C44AB5E0046393C /* Build configuration list for PBXNativeTarget "SSAudio" */;
+			buildPhases = (
+				2127929F1C44AB5E0046393C /* Sources */,
+				212792A01C44AB5E0046393C /* Frameworks */,
+				212792A11C44AB5E0046393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSAudio;
+			productName = SSAudio;
+			productReference = 212792A31C44AB5E0046393C /* SSAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2127929B1C44AB5E0046393C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cz;
+				TargetAttributes = {
+					212792A21C44AB5E0046393C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2127929E1C44AB5E0046393C /* Build configuration list for PBXProject "SSAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2127929A1C44AB5E0046393C;
+			productRefGroup = 212792A41C44AB5E0046393C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212792A21C44AB5E0046393C /* SSAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212792A11C44AB5E0046393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212792CD1C44ABB70046393C /* sound0.caf in Resources */,
+				212792CC1C44ABB70046393C /* music.aifc in Resources */,
+				212792B11C44AB5E0046393C /* LaunchScreen.storyboard in Resources */,
+				212792AE1C44AB5E0046393C /* Assets.xcassets in Resources */,
+				212792AC1C44AB5E0046393C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2127929F1C44AB5E0046393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212792C31C44AB790046393C /* SSAVSoundChannel.swift in Sources */,
+				212792C21C44AB790046393C /* SSAVSound.swift in Sources */,
+				212792A91C44AB5E0046393C /* ViewController.swift in Sources */,
+				212792C41C44AB790046393C /* SSALSound.swift in Sources */,
+				212792C51C44AB790046393C /* SSALSoundChannel.swift in Sources */,
+				212792A71C44AB5E0046393C /* AppDelegate.swift in Sources */,
+				212792C61C44AB790046393C /* SSAudioEngine.swift in Sources */,
+				212792C71C44AB790046393C /* SSSound.swift in Sources */,
+				212792C81C44AB790046393C /* SSSoundChannel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		212792AA1C44AB5E0046393C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212792AB1C44AB5E0046393C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212792AF1C44AB5E0046393C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212792B01C44AB5E0046393C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212792B31C44AB5E0046393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212792B41C44AB5E0046393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212792B61C44AB5E0046393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.SSAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		212792B71C44AB5E0046393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arvin.SSAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2127929E1C44AB5E0046393C /* Build configuration list for PBXProject "SSAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212792B31C44AB5E0046393C /* Debug */,
+				212792B41C44AB5E0046393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212792B51C44AB5E0046393C /* Build configuration list for PBXNativeTarget "SSAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212792B61C44AB5E0046393C /* Debug */,
+				212792B71C44AB5E0046393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2127929B1C44AB5E0046393C /* Project object */;
+}
